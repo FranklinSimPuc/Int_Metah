@@ -3,7 +3,8 @@ import random as rand
 rand.seed()
 
 def heuConstrutivaAleatoria(numObj, numMoc):
-    #inicializando el vector solucion con el tamaño del número de objetos
+    #inicializando el vector solucion con 
+    #el tamaño del número de objetos
     sol = [0] * numObj
     for i in range(numObj):
         #Para cada objeto y sorteado
